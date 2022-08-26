@@ -1,30 +1,30 @@
 # Sections content configuration file
-## 
+##
 ### use navigation.yml file to re-order, delete or add section of each card
 ### here you can find all content in all pre-build sections
 
 ### About [ about ]
 about:
   image: "assets/img/man2.jpg"
-  text: "<p>Hello! I’m Daniel Curry. Web designer from USA, California, San Francisco. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>"
+  text: "<p>Hello! I’m Abdelali Dousbah. System enginner from Sala Al Jadida, Morocco. I have rich experience in IT Management and System Administration, I enjoy building and maintaining a robust Information Systems, I love to see technology be successfully implemented in a way that benefits the organization the only way that great solutions can.</p>"
   list:
     - label: "Age"
-      value: "24"
+      value: "36"
 
     - label: "Residence"
-      value: "USA"
+      value: "Morocco"
 
     - label: "Freelance"
       value: "Available"
 
     - label: "Address"
-      value: "San Francisco"
+      value: "Sala Al Jadida"
 
     - label: "Phone"
-      value: "+1 256 254 84 56"
+      value: "+212 661 92 46 45"
 
     - label: "E-mail"
-      value: "alejandroa@gmail.com"
+      value: "abdelali.dousbah@outlook.com"
 
   download:
     text: "Download CV"
@@ -57,7 +57,7 @@ services:
     - icon: "fas fa-mobile-alt"
       name: "Android Application"
       text: "Games, playing music, handle network transactions, interacting content etc."
-      
+
 ### Pricing [ pricing ]
 pricing:
   title: "Pricing"
@@ -80,7 +80,7 @@ pricing:
           disable: "yes"
       button: "Buy Now"
       link: "contact/"
-          
+
     - icon: "fas fa-rocket"
       name: "Premium"
       price: "59"
@@ -116,7 +116,7 @@ resume:
       - year: "2009 - 2010"
         name: "Senior Developer - Abc Inc"
         text: "Optimize website performance using latest technology."
-        
+
   education:
     title: "Education"
     items:
@@ -226,7 +226,7 @@ facts:
     - icon: "fas fa-headphones"
       name: "Music"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      
+
 ### Team [ team ]
 team:
   title: "Our Team"
@@ -241,7 +241,7 @@ team:
           icon: "fab fa-instagram"
         - url: "https://dribbble.com/"
           icon: "fab fa-dribbble"
-          
+
     - image: "assets/img/team/team2.jpg"
       name: "Peter Green"
       role: "Back-end Developer"
@@ -252,7 +252,7 @@ team:
           icon: "fab fa-instagram"
         - url: "https://dribbble.com/"
           icon: "fab fa-dribbble"
-          
+
 ### Testimonials [ testimonials ]
 testimonials:
   title: "Testimonials"
@@ -261,7 +261,7 @@ testimonials:
       name: "Helen Floyd"
       role: "Art Director"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      
+
     - image: "assets/img/testimonials/rev1.jpg"
       name: "Helen Floyd"
       role: "Art Director"
@@ -282,7 +282,7 @@ clients:
 
     - url: "https://www.google.com"
       image: "assets/img/clients/client4.png"
-      
+
 ### Custom Text [ text ]
 text:
   title: "Custom Text"
@@ -310,7 +310,7 @@ contacts_info:
     - label: "Address"
       icon: "fas fa-map-marker-alt"
       value: "2621 W Pico Blvd, Los Angeles"
-    
+
     - label: "Freelance Available"
       icon: "fas fa-user-tie"
       value: "I am available for Freelance hire"
@@ -318,4 +318,3 @@ contacts_info:
 ### Contact Form [ contacts-form ]
 contacts_form:
   title: "Contact Form"
-
