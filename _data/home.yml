@@ -4,47 +4,67 @@
 
 ### Started Default
 started:
-  title: "Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and <br />Front-end Developer Based in San Francisco."
+  title: "Hello, I’m <strong>Abdelali Dousbah</strong>, system engineer, <br />Junior devops engineer based in Sala Al Jadida, Morocco."
   typed:
-    - "I code cool <strong>websites</strong>"
-    - "I develop <strong>mobile apps</strong>"
-    - "I love <strong>wordpress</strong>"
+    - "I do <strong>IT</strong> "
+    - "Server <strong>configuration</strong>"
+    - "Cyber <strong>security</strong>"
+    - "User <strong>management</strong>"
+    - "<strong>Monitoring</strong>"
+    - "Cloud <strong>computing</strong>"
+    - "I code fancy <strong>Websites</strong>"
 
 ### Started Personal
 started-personal:
-  title: "Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and <br />Front-end Developer Based in San Francisco."
+  title: "Hello, I’m <strong>Abdelali Dousbah</strong>, system engineer, <br />Junior devops engineer based in Sala Al Jadida, Morocco."
   typed:
-    - "I code cool <strong>websites</strong>"
-    - "I develop <strong>mobile apps</strong>"
-    - "I love <strong>wordpress</strong>"
+    - "I do <strong>IT</strong> "
+    - "Server <strong>configuration</strong>"
+    - "Cyber <strong>security</strong>"
+    - "User <strong>management</strong>"
+    - "<strong>Monitoring</strong>"
+    - "Cloud <strong>computing</strong>"
+    - "I code fancy <strong>Websites</strong>"
   image: "assets/img/man.jpg"
-  
+
 ### Started Image
 started-image:
-  title: "Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and <br />Front-end Developer Based in San Francisco."
+  title: "Hello, I’m <strong>Abdelali Dousbah</strong>, system engineer, <br />Junior devops engineer based in Sala Al Jadida, Morocco."
   typed:
-    - "I code cool <strong>websites</strong>"
-    - "I develop <strong>mobile apps</strong>"
-    - "I love <strong>wordpress</strong>"
+    - "I do <strong>IT</strong> "
+    - "Server <strong>configuration</strong>"
+    - "Cyber <strong>security</strong>"
+    - "User <strong>management</strong>"
+    - "<strong>Monitoring</strong>"
+    - "Cloud <strong>computing</strong>"
+    - "I code fancy <strong>Websites</strong>"
   image: "assets/img/started_image_p.jpg"
-  
+
 ### Started Video
 started-video:
-  title: "Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and <br />Front-end Developer Based in San Francisco."
+  title: "Hello, I’m <strong>Abdelali Dousbah</strong>, system engineer, <br />Junior devops engineer based in Sala Al Jadida, Morocco."
   typed:
-    - "I code cool <strong>websites</strong>"
-    - "I develop <strong>mobile apps</strong>"
-    - "I love <strong>wordpress</strong>"
+    - "I do <strong>IT</strong> "
+    - "Server <strong>configuration</strong>"
+    - "Cyber <strong>security</strong>"
+    - "User <strong>management</strong>"
+    - "<strong>Monitoring</strong>"
+    - "Cloud <strong>computing</strong>"
+    - "I code fancy <strong>Websites</strong>"
   video: "https://youtu.be/S4L8T2kFFck"
   image: "assets/img/started_image_p.jpg"
-  
+
 ### Started Slider
 started-slider:
-  title: "Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and <br />Front-end Developer Based in San Francisco."
+  title: "Hello, I’m <strong>Abdelali Dousbah</strong>, system engineer, <br />Junior devops engineer based in Sala Al Jadida, Morocco."
   typed:
-    - "I code cool <strong>websites</strong>"
-    - "I develop <strong>mobile apps</strong>"
-    - "I love <strong>wordpress</strong>"
+    - "I do <strong>IT</strong> "
+    - "Server <strong>configuration</strong>"
+    - "Cyber <strong>security</strong>"
+    - "User <strong>management</strong>"
+    - "<strong>Monitoring</strong>"
+    - "Cloud <strong>computing</strong>"
+    - "I code fancy <strong>Websites</strong>"
   images:
     - "assets/img/started_image.jpg"
     - "assets/img/started_image2.jpg"
