@@ -301,11 +301,11 @@ contacts_info:
   list:
     - label: "Phone"
       icon: "fas fa-phone"
-      value: "+ (231) 456 67 89"
+      value: "+212 661 92 46 45"
 
     - label: "Email"
       icon:  "fas fa-envelope"
-      value: "<a href='mailto:steve-pearson@gmail.com'>steve-pearson@gmail.com</a>"
+      value: "<a href='mailto:abdelali.dousbah@outlook.com'>abdelali.dousbah@outlook.com</a>"
 
     - label: "Address"
       icon: "fas fa-map-marker-alt"
