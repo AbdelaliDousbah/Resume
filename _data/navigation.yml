@@ -43,9 +43,9 @@ main:
   #  parent: 0
 
   # Contacts
-  #- title: "Contacts"
-  #  url: "contacts/"
-  #  parent: 0
+  - title: "Contacts"
+    url: "contacts/"
+    parent: 0
   #  childs:
   #      - title: "Contacts Default"
   #        url: "contacts/"
