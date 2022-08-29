@@ -309,7 +309,7 @@ contacts_info:
 
     - label: "Address"
       icon: "fas fa-map-marker-alt"
-      value: "2621 W Pico Blvd, Los Angeles"
+      value: "Sala Al Jadida, Morocco"
 
     - label: "Freelance Available"
       icon: "fas fa-user-tie"
