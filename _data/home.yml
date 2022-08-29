@@ -52,7 +52,8 @@ started-video:
     - "Cloud <strong>computing</strong>"
     - "I code fancy <strong>Websites</strong>"
   #video: "https://youtu.be/S4L8T2kFFck"
-  video: "https://youtu.be/DFf37yQHDn8"
+  #video: "https://youtu.be/DFf37yQHDn8"
+  video: "https://youtu.be/af1Vp0QhDSY"
   image: "assets/img/started_image_p.jpg"
 
 ### Started Slider
