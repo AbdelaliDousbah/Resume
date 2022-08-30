@@ -135,76 +135,74 @@ resume:
 ### Skills [ skills ]
 skills:
   columns:
-    - type: "default" #skills progress type - default, dotted, circles, list
-      title: "Design Skills"
+    - type: "circles" #skills progress type - default, dotted, circles, list
+      title: "System"
       items:
-        - label: "Web Design"
-          value: "70" #0-100 progress in %
+        - label: "Linux"
+          value: "95" #0-100 progress in %
 
-        - label: "Illustrations"
+        - label: "Microsoft"
+          value: "80" #0-100 progress in %
+
+        - label: "virtualization"
           value: "90" #0-100 progress in %
 
-        - label: "Photoshop"
-          value: "75" #0-100 progress in %
-
-        - label: "Graphic Design"
-          value: "80" #0-100 progress in %
+        - label: "Unix"
+          value: "70" #0-100 progress in %
 
     - type: "dotted" #skills progress type - default, dotted, circles, list
       title: "Languages Skills"
       items:
-        - label: "English"
-          value: "90" #0-100 progress in %
-
-        - label: "German"
-          value: "70" #0-100 progress in %
-
-        - label: "Italian"
-          value: "55" #0-100 progress in %
+        - label: "Arabic"
+          value: "95" #0-100 progress in %
 
         - label: "French"
-          value: "85" #0-100 progress in %
+          value: "80" #0-100 progress in %
 
-    - type: "circles" #skills progress type - default, dotted, circles, list
+        - label: "English"
+          value: "75" #0-100 progress in %
+
+    - type: "default" #skills progress type - default, dotted, circles, list
       title: "Coding Skills"
       items:
         - label: "WordPress"
           value: "95" #0-100 progress in %
 
-        - label: "PHP / MYSQL"
-          value: "75" #0-100 progress in %
-
-        - label: "Angular / JavaScript"
-          value: "85" #0-100 progress in %
+        - label: "SSG's"
+          value: "95" #0-100 progress in %
 
         - label: "HTML / CSS"
-          value: "90" #0-100 progress in %
+          value: "85" #0-100 progress in %
+
+        - label: "SHELL"
+          value: "95" #0-100 progress in %
+
 
     - type: "list" #skills progress type - default, dotted, circles, list
       title: "Knowledge"
       items:
-        - label: "Website hosting"
+        - label: "Networking"
           value: "" #0-100 progress in %
 
-        - label: "iOS and android apps"
+        - label: "Cloud"
           value: "" #0-100 progress in %
 
-        - label: "Create logo design"
+        - label: "Automation and Scripting"
           value: "" #0-100 progress in %
 
-        - label: "Design for print"
+        - label: "Security and Monitoring"
           value: "" #0-100 progress in %
 
-        - label: "Modern and mobile-ready"
+        - label: "Account Access Management"
           value: "" #0-100 progress in %
 
-        - label: "Advertising services include"
+        - label: "Scripting Languages"
           value: "" #0-100 progress in %
 
-        - label: "Graphics and animations"
+        - label: "Hardware Management"
           value: "" #0-100 progress in %
 
-        - label: "Search engine marketing"
+        - label: "IoT/Mobile Device Management"
           value: "" #0-100 progress in %
 
 ### Facts [ facts ]
