@@ -53,8 +53,9 @@ started-video:
     - "I code fancy <strong>Websites</strong>"
   #video: "https://youtu.be/S4L8T2kFFck"
   #video: "https://youtu.be/DFf37yQHDn8"
-  video: "https://youtu.be/af1Vp0QhDSY"
-  image: "assets/img/started_image_p.jpg"
+  #video: "https://youtu.be/af1Vp0QhDSY"
+  video: "https://youtu.be/JCy3L6YV9ak"
+  #image: "assets/img/started_image_p.jpg"
 
 ### Started Slider
 started-slider:
@@ -68,7 +69,6 @@ started-slider:
     - "Cloud <strong>computing</strong>"
     - "I code fancy <strong>Websites</strong>"
   images:
-    - "assets/img/started_image.jpg"
-    - "assets/img/started_image2.jpg"
-    - "assets/img/started_image3.jpg"
-    - "assets/img/started_image4.jpg"
+    - "assets/img/photoH1.jpg"
+    - "assets/img/photoH2.jpg"
+    - "assets/img/photoH3.jpg"

@@ -10,7 +10,7 @@ main:
   - title: "Home"
     url: "/"
     parent: 0
-  #  childs:
+    childs:
   #      - title: "Home Personal"
   #        url: "/"
   #      - title: "Home Default"
