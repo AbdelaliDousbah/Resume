@@ -34,29 +34,29 @@ about:
 services:
   title: "Services"
   items:
+    - icon: "fas fa-server"
+      name: "Server Configuration"
+      text: "Server setup offer connection of servers and network devices, installation of operating systems."
+
+    - icon: "fas fa-chart-bar"
+      name: "Monitoring"
+      text: "Process of visibility and activity on your servers, by tracking and monitoring server performance."
+
+    - icon: "fas fa-lock"
+      name: "Cyber Security"
+      text: "Cybersecurity refers to protecting a company from unauthorized or criminal use of electronic data."
+
+    - icon: "fas fa-bezier-curve"
+      name: "User Management"
+      text: "Efficient management of users and their accounts, providing them with access to various IT resources."
+
     - icon: "fas fa-code"
       name: "Web Development"
-      text: "Modern and mobile-ready website that will help you reach all of your marketing."
-
-    - icon: "fas fa-music"
-      name: "Music Writing"
-      text: "Music copying, writing, creating, transcription, arranging and services."
+      text: "Modern and mobile-ready website that will help you reach all of your marketing, using Wordpress or any SSG"
 
     - icon: "fas fa-ad"
-      name: "Advetising"
-      text: "Advertising services include television, radio, print, mail, and web apps."
-
-    - icon: "fas fa-gamepad"
-      name: "Game Development"
-      text: "Developing memorable and unique mobile android, ios and video games."
-
-    - icon: "fas fa-camera"
-      name: "Photography"
-      text: "Our in-house photography services team made up of professional photographers."
-
-    - icon: "fas fa-mobile-alt"
-      name: "Android Application"
-      text: "Games, playing music, handle network transactions, interacting content etc."
+      name: "SEO"
+      text: "improving the quality and quantity of website traffic to a website or a web page from search engines."
 
 ### Pricing [ pricing ]
 pricing:
