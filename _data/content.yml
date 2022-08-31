@@ -209,21 +209,21 @@ skills:
 facts:
   title: "Interests"
   items:
-    - icon: "fas fa-baseball-ball"
-      name: "Basketball"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    - icon: "fas fa-headphones"
+      name: "Music"
+      text: "Without music, life would be a mistake."
 
     - icon: "fas fa-campground"
       name: "Camping"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      text: "Because therapy is expensive."
 
-    - icon: "fas fa-chess-knight"
-      name: "Chess"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    - icon: "fas fa-language"
+      name: "Learning languages"
+      text: "To have another language is to possess a second soul."
 
-    - icon: "fas fa-headphones"
-      name: "Music"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    - icon: "fas fa-baseball-ball"
+      name: "Sports"
+      text: "The more difficult the victory, the greater the happiness in winning."
 
 ### Team [ team ]
 team:
