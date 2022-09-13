@@ -105,32 +105,36 @@ resume:
   experience:
     title: "Experience"
     items:
-      - year: "2013 - Present"
-        name: "Art Director - Facebook Inc"
-        text: "Collaborate with creative and development teams on the execution of ideas."
+      - year: "2019 - 2021"
+        name: "Project Manager - Amam Developpement"
+        text: "to be filled."
 
-      - year: "2011 - 2012"
-        name: "Front-end Developer - Google Inc"
-        text: "Monitored technical aspects of the front-end delivery for several projects."
+      - year: "2011 - 2018"
+        name: "IT Engineer - Econocom"
+        text: "to be filled."
 
-      - year: "2009 - 2010"
-        name: "Senior Developer - Abc Inc"
-        text: "Optimize website performance using latest technology."
+      - year: "2010 - 2011"
+        name: "Technical Leader - HP-CDG IT services"
+        text: "to be filled."
+
+      - year: "2007 - 2010"
+        name: "IT Helpdesk - Sitel, Rabat"
+        text: "to be filled."
 
   education:
     title: "Education"
     items:
-      - year: "2006 - 2008"
-        name: "Art University of New York"
-        text: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+      - year: "2003 - 2004"
+        name: "Hassan II High School"
+        text: "baccalaureate Degree in Experimental Sciences"
 
-      - year: "2005 - 2006"
-        name: "Programming Course"
-        text: "Coursework - Git, WordPress, Javascript, iOS, Android."
+      - year: "2005 - 2007"
+        name: "Institut Spécialisé de Technologie Appliquée, ISTA Sala Al Jadida"
+        text: "specialized technician diploma, Networks & IT Systems"
 
-      - year: "2004 - 2005"
-        name: "Web Design Course"
-        text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      - year: "2009 - 2012"
+        name: "école supérieure d’Ingénierie et de Management, IGA Rabat"
+        text: "Master's degree, Networks & IT Systems Engineer"
 
 ### Skills [ skills ]
 skills:
