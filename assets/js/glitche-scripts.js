@@ -1,40 +1,34 @@
-/**
-*	Glitche - CV/Resume/Portfolio Template (HTML)
-*	Version: 1.3
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
+
 
 $(function () {
 	'use strict';
-	
+
 	window.onpageshow = function(event) {if (event.persisted) {window.location.reload() }};
 
 	/* Set full height in blocks */
 	var width = $(window).width();
 	var height = $(window).height();
 	$('.section.started').css({'height': height-60});
-	
+
 	/* Typed preload text */
 	$('.typed-load').typed({
 		stringsElement: $('.typing-load'),
 		loop: true
 	});
-	
+
 	/* Preloader */
 	$(window).on('load', function() {
 		$(".preloader .pre-inner").fadeOut(800, function(){
 			/* Preload hide */
 			$('.preloader').fadeOut();
 			$('body').addClass('loaded');
-			
+
 			/* Typed subtitle */
 			$('.typed-subtitle').typed({
 				stringsElement: $('.typing-subtitle'),
 				loop: true
 			});
-			
+
 			/* Typed breadcrumbs */
 			$('.typed-bread').typed({
 				stringsElement: $('.typing-bread'),
@@ -49,7 +43,7 @@ $(function () {
 			}
 		});
 	});
-	
+
 	/*Fade-out animation between load pages*/
 	$('header .top-menu, .typed-bread').on('click', 'a', function(){
 		var link = $(this).attr('href');
@@ -70,7 +64,7 @@ $(function () {
 		}
 		return false;
 	});
-	
+
 	/*Menu mobile*/
 	$('header').on('click', '.menu-btn', function(){
 		if($('header').hasClass('active')){
@@ -80,10 +74,10 @@ $(function () {
 			$('header').addClass('active');
 			$('body').removeClass('loaded');
 		}
-		
+
 		return false;
 	});
-	
+
 	/* Hide mouse button on scroll */
 	$(window).scroll(function(){
 		if ($(this).scrollTop() >= 1 /*$('#blue_bor').offset().top*/) {
@@ -93,14 +87,14 @@ $(function () {
 			$('.mouse_btn').fadeIn();
 		}
 	});
-	
+
 	/* On click mouse button, page scroll down */
 	$('.section').on('click', '.mouse_btn', function(){
 		$('body,html').animate({
 			scrollTop: height - 150
 		}, 800);
 	});
-	
+
 	$('body').on({
 		mouseenter: function () {
 			$(this).addClass('glitch-effect-white');
@@ -110,7 +104,7 @@ $(function () {
 			$('.top-menu ul li.active a.btn').addClass('glitch-effect-white');
 		}
 	}, 'a.btn, .btn');
-	
+
 	/* Validate contact form */
 	$("#cform").validate({
 		rules: {
@@ -131,7 +125,7 @@ $(function () {
 			$("#cform").find('input[type="text"], input[type="email"], input[type="tel"], textarea').val('');
 		}
 	});
-	
+
 	/* Initialize masonry items */
 	var $container_clients = $('.section.clients .box-items');
 	$container_clients.imagesLoaded(function() {
@@ -147,7 +141,7 @@ $(function () {
 			itemSelector: '.box-item'
 		});
 	});
-	
+
 	/*
 		Initialize portfolio items
 	*/
@@ -167,7 +161,7 @@ $(function () {
 		$('.filters .btn-group label').removeClass('glitch-effect');
 		$(this).find('label').addClass('glitch-effect');
 	});
-	
+
 	/*
 		Gallery popup
 	*/
@@ -203,7 +197,7 @@ $(function () {
 			verticalFit: true
 		}
 	});
-	
+
 	/*
 		Video popup
 	*/
@@ -229,7 +223,7 @@ $(function () {
 			}
 		}
 	});
-	
+
 	/*
 		Music popup
 	*/
@@ -247,7 +241,7 @@ $(function () {
 	*/
 	$('.has-popup-gallery').on('click', function() {
         var gallery = $(this).attr('href');
-    
+
         $(gallery).magnificPopup({
             delegate: 'a',
             type:'image',
@@ -262,12 +256,12 @@ $(function () {
 
         return false;
     });
-	
+
 	/* Resize function */
 	$(window).resize(function() {
 		var width = $(window).width();
 		var height = $(window).height();
-		
+
 		$('.section.started').css({'height': height-60});
 
 		/* Dotted Skills Line On Resize Window */
@@ -277,7 +271,7 @@ $(function () {
 			skills_dotted.find('.percentage .da').css({'width':skills_dotted_w+1});
 		}
 	});
-	
+
 	if(width < 840) {
 		$('.section.started').css({'height': height-30});
 	}
@@ -313,7 +307,7 @@ $(function () {
 		title: $('.social-share').data('title'),
 		url: $('.social-share').data('url'),
 	});
-	
+
 	/*
 		Sidebar Show/Hide
 	*/
@@ -321,7 +315,7 @@ $(function () {
 		$('.s_overlay').fadeIn();
 		$('.content-sidebar').addClass('active');
 		$('body').addClass('scroll_hidden');
-		
+
 		return false;
 	});
 	$('.content-sidebar, .container').on('click', '.close, .s_overlay', function(){

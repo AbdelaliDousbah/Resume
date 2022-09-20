@@ -1,9 +1,4 @@
-/**
-*	Cvio - Resume/CV Template (HTML)
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
+
 
 ( function( $ ) {
 	'use strict';
@@ -39,7 +34,7 @@
 				});
 			});
 		}
-		
+
 		/*
 			Typed Breadcrumbs
 		*/
@@ -178,12 +173,12 @@
 	}
 	grained('#grained_container', grained_options);
 	}
-	
+
 	/*
 		Cursor Effects
 	*/
 	if(width > 1199) {
-		$(document).on('mousemove', function(e){ 
+		$(document).on('mousemove', function(e){
 			var x = e.pageX;
 			var y = e.pageY;
 			var newposX = x;
@@ -251,7 +246,7 @@
 			$('.cursor-follower').removeClass('hide');
 		}
 	});
-	
+
 	/*
 		Animation Between Pages
 	*/
@@ -276,9 +271,9 @@
 		}
 		return false;
 	});
-	
+
 	/*
-		On Scroll 
+		On Scroll
 	*/
 	$(window).on('scroll', function(){
 
@@ -302,7 +297,7 @@
 			$('.footer').removeClass('fixed');
 			$('.mouse_btn').fadeIn();
 		}
-		
+
 	});
 
 	/*
@@ -322,7 +317,7 @@
 			$('body').removeClass('loaded');
 			$('body').removeClass('background-enabled');
 		}
-		
+
 		return false;
 	});
 
@@ -332,7 +327,7 @@
 	$('.section.about').on('click touchstart', '.btn', function(){
 		location.href = $(this).attr('href');
 	});
-	
+
 	/*
 		Mouse Button Scroll
 	*/
@@ -344,7 +339,7 @@
 	if($('.section').length>1){
 		$('.mouse_btn').show();
 	}
-	
+
 	/*
 		Initialize Portfolio
 	*/
@@ -374,7 +369,7 @@
 		$('.filters .btn-group label').removeClass('glitch-effect');
 		$(this).find('label').addClass('glitch-effect');
 	});
-	
+
 	/*
 		Gallery popup
 	*/
@@ -410,7 +405,7 @@
 			verticalFit: true
 		}
 	});
-	
+
 	/*
 		Video popup
 	*/
@@ -436,7 +431,7 @@
 			}
 		}
 	});
-	
+
 	/*
 		Music popup
 	*/
@@ -454,7 +449,7 @@
 	*/
 	$('.has-popup-gallery').on('click', function() {
         var gallery = $(this).attr('href');
-    
+
         $(gallery).magnificPopup({
             delegate: 'a',
             type:'image',
@@ -477,7 +472,7 @@
 	var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 	var isMobile = false; //initiate as false
 	// device detection
-	if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)) { 
+	if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)) {
 		isMobile = true;
 	}
 
@@ -565,7 +560,7 @@
 		/* Set full height in blocks */
 		var width = $(window).width();
 		var height = $(window).height();
-		
+
 		/* Set full height in started blocks */
 		$('.section.started').css({'height': height});
 		if(width < 783) {
@@ -612,7 +607,7 @@
 	if($('#map').length) {
 		initMap();
 	}
-    
+
     /*
 		Social Share
 	*/
@@ -620,7 +615,7 @@
 		title: $('.social-share').data('title'),
 		url: $('.social-share').data('url'),
 	});
-	
+
 	/*
 		Sidebar Show/Hide
 	*/
@@ -628,7 +623,7 @@
 		$('.s_overlay').fadeIn();
 		$('.content-sidebar').addClass('active');
 		$('body').addClass('scroll_hidden');
-		
+
 		return false;
 	});
 	$('.content-sidebar, .container').on('click', '.close, .s_overlay', function(){
@@ -641,7 +636,7 @@
 		Widget Title
 	*/
 	$('.widget-title').wrapInner('<span class="widget-title-span"></span>');
-    
+
     /*
 		Search
 	*/
@@ -650,7 +645,7 @@
 	  resultsContainer: document.getElementById('results-container'),
 	  json: '/search.json'
 	});
-	
+
 } )( jQuery );
 
 /*
@@ -730,7 +725,7 @@ function initMap() {
 		scrollwheel: false,
 		styles: styles
 	}
-	
+
 	var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 	/*var marker = new google.maps.Marker({
 		position: myLatlng,

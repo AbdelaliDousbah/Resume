@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 # basic settings
-title: "Abdelali Dousbah - System engineer & junior Devops engineer"
+title: "Abdelali Dousbah - System engineer & junior Devops engineer."
 email: "abdelali.dousbah@outlook.com"
-description: "Abdelali Dousbah - System engineer & junior Devops engineer"
-author: "Admin"
+description: "DevOPS GitOPS DevsecOPS IT Sysadmin"
+author: "Abdelali Dousbah"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dousbah.ml" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
 
 # paginations & permalinks
